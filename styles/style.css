@@ -1,0 +1,55 @@
+/* --------------
+-------fonts-----
+----------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* -----------------------------
+-------menu buttom area---------
+-------------------------------- */
+.main-menu{
+    margin: 87px 120px 0px 120px;
+}
+.main-menu h3{
+    color: #3A3A3A;
+    font-size: 700;
+    font-family: Poppins;
+
+}
+.container{
+    margin: 143px 165px;
+}
+.menu-bottom-area{
+    display: flex;
+}.half-width h1{
+    font-family: 'Poppins', sans-serif;
+    color: #3A3A3A;
+    font-size: 51px;
+    margin-bottom: 0;
+}
+.half-width p{
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+.link-button{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border-radius: 41px;
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 16px;
+    border: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.fa-arrow-right{
+    margin-left: 15px;
+    font-size: 16px;
+    
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    margin:0 70px;
+    align-items: center;
+}
