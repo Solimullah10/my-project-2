@@ -1,9 +1,13 @@
-/* --------------
--------fonts-----
------------------ */
+/* ---------------------
+-------Google fonts-----
+------------------------- */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Poppins:wght@700&family=Roboto:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@500&display=swap');
 /* -----------------------------
--------menu buttom area---------
+-------Header start---------
 -------------------------------- */
 .main-menu{
     margin: 87px 120px 0px 120px;
@@ -14,6 +18,15 @@
     font-family: Poppins;
 
 }
+/* -----------------------------
+-------Header end---------
+-------------------------------- */
+
+
+
+/* -----------------------------
+-------Menu bottom area start---------
+-------------------------------- */
 .container{
     margin: 143px 165px;
 }
@@ -42,14 +55,56 @@
     align-items: center;
     cursor: pointer;
 }
-.fa-arrow-right{
+.right-arrow{
     margin-left: 15px;
     font-size: 16px;
     
 }
+/* -----------------------------
+-------Menu bottom area end---------
+-------------------------------- */  
+
+
+/* -----------------------------
+-------kind of Logos part start--
+-------------------------------- */  
 .logos{
     display: flex;
     justify-content: space-between;
     margin:0 70px;
     align-items: center;
+}
+/* -----------------------------
+-------kind of Logos part end---
+-------------------------------- */  
+
+.collection .product-name{
+    color: #18191F;
+    font-family: Poppins;
+    font-size: 28px;
+    margin: 0;
+}
+.collection .price{
+    font-family: Inter;
+    font-weight: normal;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.87);
+    margin: 5px 0;
+}
+.full-star, .half-star{
+    color: #FB8200;
+    font-size: 10px;
+}
+.rating{
+    font-weight: 700;
+    color: #5E6366;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 10px;
+}
+.collection p{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 14px;
+    color: #787885;
 }
