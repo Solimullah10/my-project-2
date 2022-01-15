@@ -283,3 +283,56 @@ input, textarea{
         display: none;
     }
 }
+/* @media only screen and (min-width:669px) and (max-width:991px) {
+ } */
+ @media only screen and (min-width:669px) and (max-width:991px) {
+    .container{
+        margin:50px 0;
+        padding: 0 20px;
+    }
+    .main-menu h3{
+        text-align: center;
+    }
+    .menu-bottom-area{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .half-width h1{
+        font-family: 'Poppins', sans-serif;
+        color: #3A3A3A;
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+    #order{
+        order: 2;
+    }
+    .main-camera{
+        width: 100%;
+        order: 1;
+    }
+    .logos{
+        display: flex;
+        flex-wrap: wrap;
+        margin:0;
+        justify-content:space-around;
+    }
+    .logos img{
+        width: 70px;
+    }
+    .collections{
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    .my-custom-area{
+        flex-direction: column;
+    }
+    .contract-form{
+        width: 100%;
+    }
+    .our-services{
+        width: 100%;
+        margin: 0;
+        
+    }
+}
