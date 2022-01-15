@@ -138,8 +138,21 @@
 .footer-part{
     text-align: center;
     background-color: #0A0826;
+    padding:50px 0;
 }
- a{
+.footer-part h3{
+    font-family: Poppins;
+    font-size: 24px;
+    font-weight: 700;
+    color:#FFFFFF
+}
+.footer-part p{
+    font-family: Poppins;
+    font-size: 14px;
+    font-weight: 700;
+    color: #D9DBE1;
+}
+ .social-icon a{
     background-color: #22213C;
     width: 65px;
     height: 50px;
@@ -148,6 +161,10 @@
     text-decoration: none;
     padding-top: 15px;
     padding-left: 0px;
+}
+.social-icon a:hover{
+    background-color: #E02C6D;
+    transition: .5s ease;
 }
 .icon{
     color: #FFFFFF;
