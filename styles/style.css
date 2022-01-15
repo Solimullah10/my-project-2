@@ -170,7 +170,11 @@ input, textarea{
     width: 100%;
     display: block;
     margin:10px 0;
+    border-radius: 10px;
     
+}
+input{
+    height: 25px;
 }
 .our-services{
     width: 60%;
@@ -283,8 +287,7 @@ input, textarea{
         display: none;
     }
 }
-/* @media only screen and (min-width:669px) and (max-width:991px) {
- } */
+/* /* responsive for tablate device */
  @media only screen and (min-width:669px) and (max-width:991px) {
     .container{
         margin:50px 0;
@@ -307,8 +310,11 @@ input, textarea{
         order: 2;
     }
     .main-camera{
-        width: 100%;
+        width: 70%;
         order: 1;
+        display: block;
+        margin: 0 auto;
+
     }
     .logos{
         display: flex;
@@ -322,8 +328,8 @@ input, textarea{
     .collections{
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
+        justify-content: center;
     }
-
     .my-custom-area{
         flex-direction: column;
     }
