@@ -28,7 +28,7 @@
 -------Menu bottom area start---------
 -------------------------------- */
 .container{
-    margin: 143px 165px;
+    margin: 100px 165px 0px 165px;
 }
 .menu-bottom-area{
     display: flex;
@@ -91,7 +91,6 @@
 }
 .collection-items{
     text-align: center;
-    margin-top: 100px;
     margin-bottom: 30px;
     font-family: Poppins;
     color: #3A3A3A;
@@ -136,3 +135,21 @@
 /*-----------------------
 --- Collection Items end-
 ----------------------------- */
+.footer-part{
+    text-align: center;
+    background-color: #0A0826;
+}
+ a{
+    background-color: #22213C;
+    width: 65px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 46px;
+    text-decoration: none;
+    padding-top: 15px;
+    padding-left: 0px;
+}
+.icon{
+    color: #FFFFFF;
+    font-size: 30px;
+}
